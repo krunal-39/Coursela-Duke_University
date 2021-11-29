@@ -16,13 +16,13 @@ body {
 
 .h1 {
     margin: 20px 30px;
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-decoration: underline;
     font-weight: bolder;
 }
 
 .main {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bolder;
 }
 
