@@ -21,7 +21,7 @@ body {
     margin-left: 70px;
     margin-top: 20px;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     text-decoration: underline;
 }
 
@@ -33,7 +33,7 @@ canvas {
 }
 
 .main {
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-family: 'DM Serif Display', serif;
     margin: 10px 50px;
 }
