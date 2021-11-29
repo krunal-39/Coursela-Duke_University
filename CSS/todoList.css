@@ -1,0 +1,101 @@
+body {
+    background-color: rgba(239, 239, 239, 0.3);
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.container {
+    background-color: white;
+    margin: 30px auto;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px 30px;
+}
+
+.container ul {
+    padding-left: 0;
+}
+
+.container li {
+    list-style-type: none;
+    background-color: #eee;
+    border: 1px solid #c3c3c3;
+    padding: 10px 0px 10px 5px;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.done {
+    background-color: darkgreen;
+}
+
+.remove {
+    background-color: red;
+}
+
+.container li.finished {
+    color: white;
+    background-color: gray;
+    text-decoration: line-through;
+}
+
+input[type='text'] {
+    font-size: 18px;
+    width: 94%;
+    padding: 10px;
+    margin: 10px 0px;
+    outline: none;
+}
+
+#addButton {
+    padding: 6px 12px;
+    margin: 10px 0;
+}
+
+.aboutcolor {
+    background-color: chocolate;
+    padding: 10px 15px;
+    border: 2px solid black;
+}
+
+#divabout {
+    font-size: 1.93rem;
+    color: rebeccapurple;
+    margin: 20px 10px;
+    width: 20%;
+}
+
+.icon {
+    filter: invert(50%);
+    border: none;
+}
+
+.text {
+    padding: 10px 20px;
+}
+
+.textContent {
+    font-size: 1.3rem;
+}
+
+.Important {
+    background-color: lightblue !important;
+}
+
+.Important,
+.remove,
+.done {
+    padding: 3px 6px;
+    font-size: 1.3rem;
+    margin: 3px;
+    border-radius: 9px;
+}
+
+.logo {
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 3px;
+}
