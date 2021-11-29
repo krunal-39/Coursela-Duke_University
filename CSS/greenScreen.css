@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+    background-color: rgba(239, 239, 239, 0.3);
+}
+
+.container {
+    border: 2px solid black;
+    border-radius: 12px;
+    margin: 50px auto;
+    background-color: white;
+}
+
+.logo {
+    filter: invert(70%);
+}
+
+.h1 {
+    margin: 20px 30px;
+    font-size: 3rem;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.main {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+canvas {
+    margin: 10px;
+    border: 3px solid black;
+    height: 300px;
+}
+
+input {
+    margin: 8px 10px;
+    padding: 5px 10px;
+    font-size: 1.5rem;
+}
