@@ -1,0 +1,40 @@
+/* Font and Decoration */
+
+.arvo {
+    font-family: 'Arvo', serif;
+}
+
+.IBMPlex {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.coustard {
+    font-family: 'Coustard', serif;
+}
+
+
+/* Image Styling */
+
+.logo {
+    filter: invert(70%);
+}
+
+
+/* Carousel Styling */
+
+.carousel-para {
+    padding: 10px 20px;
+    font-size: 1.39rem;
+}
+
+.carousel-head {
+    padding: 10px 20px;
+}
+
+.carousel-btn {
+    font-size: 1.13rem;
+}
+
+.carousel-btn:hover {
+    text-decoration: underline;
+}
