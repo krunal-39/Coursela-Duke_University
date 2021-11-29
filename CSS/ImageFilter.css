@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(239, 239, 239, 0.3);
+}
+
+.logo {
+    filter: invert(70%);
+}
+
+.container {
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 20px 30px;
+    margin: 20px auto;
+    width: 70%;
+    background-color: #F7CAC9;
+}
+
+.heading {
+    margin-left: 70px;
+    margin-top: 20px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3.5rem;
+    text-decoration: underline;
+}
+
+canvas {
+    background-color: white;
+    height: 370px;
+    border: 4px solid black;
+    margin: 20px 50px;
+}
+
+.main {
+    font-size: 2rem;
+    font-family: 'DM Serif Display', serif;
+    margin: 10px 50px;
+}
+
+input {
+    font-family: 'DM Serif Display', serif;
+    margin: 5px 10px;
+    padding: 3px 9px;
+    font-size: 1.23rem;
+    border: 3px solid black;
+    background-color: white;
+    border-radius: 10px;
+    outline: none;
+}
+
+input[type='button']:hover {
+    color: white;
+    background-color: black;
+    text-decoration: underline;
+}
