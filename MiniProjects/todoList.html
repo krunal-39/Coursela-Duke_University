@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>My To-Do List</title>
+    <script src="todoList.js"></script>
+    <link rel="stylesheet" href="todoList.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="aspect-ratio-fill.svg" alt="" width="33" height="30" class="d-inline-block align-text-top icon me-3"> To Do List
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/Km09oct/" target="_blank">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.linkedin.com/in/krunalmistry09/" target="_blank">LinkedIn</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://coursera.org/share/5d9c62ac62e80d1ee84e17f3b692e8fd" target="_blank">Code</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <h1 id="myHeader">
+            TO DO List - Your Daily Planner
+        </h1>
+        <h3>Some Instructions..</h3>
+        <p class="text">
+            <p class="textContent">
+                Decide your Today's Goal and write in below textbox and Click on Add-task button to add it.
+            </p>
+            <p class="textContent"><span class="logo bg-success">&#x2713</span> Click it once you complete your task </p>
+            <p class="textContent"><span class="logo bg-danger">&#x2715</span> Click it to remove task </p>
+            <p class="textContent"><span class="logo bg-primary"> !</span> - Click it to add task as important </p>
+        </p>
+        <hr>
+        <input type="button" class="btn btn-outline-success btn-lg" value="Add - Task" id="addButton" onclick="addTask()">
+        <br>
+        <input type="text" id="input" placeholder="Enter Task Here.....">
+        <hr>
+        <ul id="tasks">
+            <li>
+                <input type="button" class="done" onclick="markDone(this.parentNode)" value="&#x2713" />
+                <input type="button" class="remove" onclick="remove(this.parentNode)" value="&#x2715" />
+                <input type="button" onclick="addImportant(this.parentNode)" class="Important" value="!" /> Solve problems on LeetCode
+            </li>
+        </ul>
+        <hr>
+        <div id="divabout">
+
+        </div>
+
+        <input type="button" class="btn btn-primary btn-lg" value="About" onclick="doAbout()">
+        <input type="button" class="btn btn-danger btn-lg" value="Clear" onclick="clearAbout()">
+    </div>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-2 my-2  border-top fixed-bottom">
+        <div class="col-md-4 d-flex align-items-center mx-3">
+            <span class="text-muted"> Repository: @Km09oct/Coursela-Duke_University</span>
+            </a>
+        </div>
+
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex me-4">
+            <li class="ms-3">
+                <a class="text-muted" href="https://github.com/Km09oct/" target="_blank">
+                    <img src="Images/github.svg" alt="" width="33" height="30" class="d-inline-block align-text-top logo me-1">
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+
+</html>
