@@ -24,7 +24,7 @@ h1 {
     background-color: #eee;
     border: 1px solid #c3c3c3;
     padding: 10px 0px 10px 5px;
-    font-size: 23px;
+    font-size: 18px;
     font-weight: bold;
 }
 
@@ -43,7 +43,7 @@ h1 {
 }
 
 input[type='text'] {
-    font-size: 18px;
+    font-size: 15px;
     width: 94%;
     padding: 10px;
     margin: 10px 0px;
@@ -62,7 +62,7 @@ input[type='text'] {
 }
 
 #divabout {
-    font-size: 1.93rem;
+    font-size: 1.43rem;
     color: rebeccapurple;
     margin: 20px 10px;
     width: 20%;
@@ -78,7 +78,7 @@ input[type='text'] {
 }
 
 .textContent {
-    font-size: 1.3rem;
+    font-size: 1.13rem;
 }
 
 .Important {
@@ -89,7 +89,7 @@ input[type='text'] {
 .remove,
 .done {
     padding: 3px 6px;
-    font-size: 1.3rem;
+    font-size: 1.13rem;
     margin: 3px;
     border-radius: 9px;
 }
