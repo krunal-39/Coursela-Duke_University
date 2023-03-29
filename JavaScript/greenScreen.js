@@ -56,18 +56,21 @@ function checkSize() {
 
 function doGreenScreen() {
     var output = new SimpleImage(fgImg.getWidth(), fgImg.getHeight());
-    var greenThreshold = 250;
     for (var pixel of fgImg.values()) {
+        if (pixel.getGreen() > pixel.getRed() + pixel.getBlue()) {
+        //Look at same position in bgImage
         var x = pixel.getX();
         var y = pixel.getY();
-        if (pixel.getGreen() > greenThreshold) {
-            //pixel is green, use background
-            var bgPixel = bgImg.getPixel(x, y);
-            output.setPixel(x, y, bgPixel);
+        var bgPixel = bgImage.getPixel(x, y);
+        //and set output's corresponding pixel to bgImage's pixel
+        output.setPixel(x, y, bgPixel);
         } else {
             //pixel is not green, use foreground
             output.setPixel(x, y, pixel);
         }
+        
+        
+      
     }
     return output;
 }
