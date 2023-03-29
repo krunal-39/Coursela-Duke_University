@@ -56,7 +56,7 @@ function checkSize() {
 
 function doGreenScreen() {
     var output = new SimpleImage(fgImg.getWidth(), fgImg.getHeight());
-    var greenThreshold = 245;
+    var greenThreshold = 250;
     for (var pixel of fgImg.values()) {
         var x = pixel.getX();
         var y = pixel.getY();
